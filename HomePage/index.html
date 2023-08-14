@@ -5,93 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="./style.css" />
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-base-carousel"
         src="https://cdn.ampproject.org/v0/amp-base-carousel-0.1.js"></script>
 </head>
-<style amp-custom>
-    @import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
-
-    body {
-        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-
-    }
-
-    p,
-    h2,
-    span,
-    ul,
-    li {
-        all: unset;
-        display: block;
-        font-size: 36px;
-        font-weight: bold;
-    }
-
-    .hero-text p {}
-
-    .container {
-        display: block;
-        width: 504px;
-        margin: 0 auto;
-    }
-
-    .button-cta {
-        width: 324px;
-        height: 74px;
-        background-color: black;
-        color: white;
-        font-size: 36px;
-        font-weight: bold;
-        text-align: start;
-        padding-left: 15px;
-    }
-</style>
 
 <body>
+    <nav class="nav">
+        <p>bipolarfactory</p>
+    </nav>
     <div class="container">
 
         <div class="hero-text">
-            <p>lorem ipsum dolor sit amet </p>
+            <p class="t-300ms">lorem ipsum dolor sit amet </p>
 
-            <p> just kiddin’</p>
+            <p class="t-300ms"> just kiddin’</p>
 
-            <p> we are bipolar factory</p>
-            <p>(not that bipolar) </p>
-            <p>🫡 ten-hut </p>
+            <p> we are bipolar factory
+                <span class="block">(not that bipolar) </span>
+            </p>
 
-            <p> advancing the human race through tech is our true goal, but not in a blackmirror-y way 😬</p>
+            <p class="t-300ms">🫡 ten-hut </p>
+
+            <p> advancing the human race through tech is our true goal, but not in a blackmirror-y way <span
+                    class="block">
+                    😬
+                </span> </p>
 
             <p> but if you are a curious chicken 🐔 and want to cross the road to know more...</p>
         </div>
         <button class="button-cta"> call us maybe? </button>
-        <p>alrighty then.
+        <p class="mt-72">alrighty then.
             you have scrolled and now we are gonna tell you about our products or what you would call “shut up and take
             my
             money”
             section.
-            🤑
+            <span class="block">🤑 </span>
         </p>
         <h2>products</h2>
+        <div>
 
-        <p>
-            —metawood
+        </div>
+        <p class="mt-20">
+            <span class="block">—metawood </span>
             virtual reality based gamified streaming platform blah blah blah basically hella fun and hella unique. you
             gots
             to check
             it out. will you? you will. will you?
-            see the website </p>
-        <p>
+            <a href="#">see
+                the website </a>
+        </p>
+        <p class="mt-20">
 
-            —falcon
+            <span class="block"> —falcon</span>
             video intelligence powered by artificial intelligence. that’s twice the intelligence. anything a human can
             recognise in
             a video, falcon can do it better at scale for 24x7 and no it is not a george orwell big-brother situation
             come
-            on see
-            the website
-        <p>
+            on
+
+            <a href="#">see
+                the website </a>
+        <p class="mt-20">
             oh you want more? aight. time to show off the clientele!
         </p>
         </p>
@@ -99,13 +75,15 @@
         <h2>clientele</h2>
         <ul>
 
-            <li> — bihar state election commission (litti-chokha anyone?) </li>
-            <li> — kerala state election commission (we like appam and stew) </li>
-            <li> —chennai corporation (traffic first, world peace next. bangalore says “uh doy!”) </li>
-            <li> —tiruppur smart city (we like all things smart) </li>
-            <li> —tirupati devasthanam (he’s cool) </li>
-            <li> —drumsticks productions (we are in the movies too) </li>
-            <li> —uco bank (we like the monies secured) </li>
+            <li> — bihar state election commission <span class="clintele_subText"> (litti-chokha anyone?) </span> </li>
+            <li> — kerala state election commission <span class="clintele_subText"> (we like appam and stew) </span>
+            </li>
+            <li> —chennai corporation <span class="clintele_subText"> (traffic first, world peace next. bangalore says
+                    “uh doy!”) </span> </li>
+            <li> —tiruppur smart city <span class="clintele_subText"> (we like all things smart) </span> </li>
+            <li> —tirupati devasthanam <span class="clintele_subText"> (he’s cool) </span> </li>
+            <li> —drumsticks productions <span class="clintele_subText"> (we are in the movies too) </span> </li>
+            <li> —uco bank <span class="clintele_subText"> (we like the monies secured)</span> </li>
         </ul>
         <h2>careers</h2>
         <p>
@@ -116,13 +94,168 @@
         </p>
         <ul>
 
-            <li> —full-stack dev (we don’t just do half of anything. and also there are no half-stack devs) </li>
-            <li> —machine-learning engineer (the poor machines gotta learn and you gotta teach them) </li>
-            <li> —ux designer (you gotta remove the ‘s’ from sux and make it better) </li>
-            <li> —react dev (fancy word for front-end just to get a “reaction” out of you) </li>
+            <li> —full-stack dev <span class="clintele_subText"> (we don’t just do half of anything. and also there are
+                    no half-stack devs) </span> </li>
+            <li> —machine-learning engineer <span class="clintele_subText"> (the poor machines gotta learn and you gotta
+                    teach them) </span> </li>
+            <li> —ux designer <span class="clintele_subText"> (you gotta remove the ‘s’ from sux and make it better)
+                </span> </li>
+            <li> —react dev <span class="clintele_subText"> (fancy word for front-end just to get a “reaction” out of
+                    you) </span> </li>
         </ul>
-    </div>
+        <h2>write to us</h2>
 
+        <form method="post">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <div class="captcha">
+                <p> 2+3 = </p>
+                <input placeholder="?" type="number" name="captcha" required>
+            </div>
+            <button class="button-cta"> send </button>
+        </form>
+        <p class="mt-72">
+
+            ooh want to follow us?
+            stalker alert!
+        </p>
+        <h2>socials</h2>
+        <p>
+            <span class="block"> linkedin </span>
+            <span class="block"> instagram </span>
+            <span class="block"> facebook </span>
+        </p>
+        <h2>©2023</h2>
+
+        <div class="mt-72 scroll-scroll">
+
+            <p>
+                how do you like them apples?
+                <span class="block"> —omg this site is so cool </span>
+                <span class="block"> —meh whatevs </span>
+            </p>
+
+
+
+            <p>
+                also quit scrolling.
+                its done.
+            </p>
+
+
+
+
+
+
+
+
+            <p>really? </p>
+
+
+
+
+
+
+            <p> should we be worried about you?</p>
+
+
+
+
+
+
+
+            <p>congratulations! you have successfully creeped out a website.</p>
+
+
+
+
+
+
+
+
+
+            <p>the end.</p>
+
+
+
+
+
+
+
+            <p>scroll again, your local authorities will be informed.</p>
+
+
+
+
+
+
+
+
+
+
+            <p>still....? oh you like to live dangerously, don’t you?</p>
+
+
+
+
+
+
+
+
+
+
+
+            <p>are you sure you are okay?</p>
+
+
+
+
+
+
+
+            <p>
+                <fill actual content for 30 mins saketh sreemoooo>
+            </p>
+
+
+
+
+
+            <p>you’ve been scrolling for 30 minutes!</p>
+
+
+
+
+
+
+
+            <p>This is really the end.</p>
+
+
+
+
+
+
+
+            <p>okay what do you think we are? a marvel movie? there are no post-credit scenes here.</p>
+
+
+
+
+
+
+            <p>quit it.</p>
+
+
+
+
+
+
+            <p>this is it.</p>
+
+        </div>
+    </div>
 </body>
 
 </html>
